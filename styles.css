@@ -1,3 +1,86 @@
+html {
+  font-family: "Lora", serif;
+}
 #content {
-    color: red;
+}
+
+.tabs {
+  display: flex;
+  margin: auto;
+  width: 80em;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  width: 80em;
+  height: 50em;
+  margin: auto;
+}
+
+.cafe {
+  width: 75em;
+  height: auto;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+  background-color: rgba(27, 27, 27, 1);
+}
+
+.header {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  font-family: "Lora", serif;
+}
+
+.logo {
+    width: 150px;
+    margin: 1em;
+}
+
+.navfull {
+  display: flex;
+  width: 100%;
+  height: 8em;
+  margin: auto;
+  margin-top: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navmain {
+  display: flex;
+  width: 80em;
+  height: 8em;
+  margin: auto;
+}
+
+ul.tab-nav {
+  list-style: none;
+  border-bottom: 1px solid #bbb;
+  padding-left: 5px;
+}
+
+ul.tab-nav li {
+  display: inline;
+}
+
+ul.tab-nav li a.button {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: -1px;
+  border-bottom: none;
+}
+
+ul.tab-nav li a.active.button {
+  border-bottom: 0.175em solid #fff;
+}
+
+.tab-content .tab-pane {
+  display: none;
+}
+
+.tab-content .tab-pane.active {
+  display: block;
 }

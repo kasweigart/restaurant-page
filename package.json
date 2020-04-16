@@ -1,17 +1,16 @@
 {
   "name": "restaurant-page",
   "version": "1.0.0",
-  "description": "A simple restaurant webpage assignment from The Odin Project.",
-  "main": "index.js",
+  "description": "",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kasweigart/restaurant-page.git"
   },
   "author": "Kyle_Sweigart <kasweigart@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kasweigart/restaurant-page/issues"
   },

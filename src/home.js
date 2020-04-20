@@ -1,6 +1,6 @@
-import aboutContent from './about';
-import menuContent from './menu';
-import contactContent from './contact';
+import aboutContent from "./about";
+import menuContent from "./menu";
+import contactContent from "./contact";
 
 const appendHomeContent = function () {
   const homeDiv = document.querySelector("#content");
@@ -73,4 +73,3 @@ const skelTabs = function () {
 };
 
 export { skelTabs, appendHomeContent };
-

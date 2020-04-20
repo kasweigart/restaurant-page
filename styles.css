@@ -1,7 +1,10 @@
 html {
   font-family: "Lora", serif;
+  background-color: rgb(214, 182, 146);
+
 }
 #content {
+  background-color: rgb(214, 182, 146);
 }
 
 .tabs {
@@ -41,6 +44,19 @@ body {
     margin: 1em;
 }
 
+.tab-pane.active {
+  background-color: rgba(255, 255 , 255, .5);
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80em;
+  height: 30em;
+}
+
+ul.tab-nav li a.button {
+  background-color: rgba(255, 255 , 255, .5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .navfull {
   display: flex;
   width: 100%;
@@ -48,6 +64,7 @@ body {
   margin: auto;
   margin-bottom: 3em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255 , 255, .5);
 }
 
 .navmain {
